@@ -16,7 +16,7 @@ MindMirror + MarketMirror founder. Engineer. Investor. Building AGI.
 
 - 🧪 [Cortex](https://github.com/artemgetmann/Cortex) - persistent-memory agent that improves across sessions
 - 🎙️ [jarvis-voice-ai](https://github.com/artemgetmann/jarvis-voice-ai) - voice-first AI assistant built for real thinking.
-- 🧠 [mindmirror](https://github.com/artemgetmann/mindmirror) - long-term memory infrastructure for AI agents (MCP backend + semantic retrieval API + vector db + optional web frontend)
+- 🧠 [mindmirror](https://github.com/artemgetmann/mindmirror) - long-term memory infrastructure for AI agents (MCP backend + retrieval API + vector db + optional web frontend)
 - 📈 [marketmirror](https://github.com/artemgetmann/marketmirror) - AI powered stock analysis platform focused on practical, fundamental analysis using first principles
 - 🎤 [OneTapTranscribe](https://github.com/artemgetmann/OneTapTranscribe) - one-tap iOS transcription with instant transcript-to-clipboard flow
 
