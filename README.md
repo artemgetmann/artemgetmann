@@ -13,17 +13,18 @@
 
 ## Current Projects
 
+- 🧪 [Cortex](https://github.com/artemgetmann/Cortex) - persistent-memory agent that learns across sessions
 - 🧠 [mindmirror](https://github.com/artemgetmann/mindmirror) - memory layer for AI agents (MCP backend + retrieval API + optional web UI)
 - 🎙️ [jarvis-voice-ai](https://github.com/artemgetmann/jarvis-voice-ai) - voice-first AI assistant platform for brainstorming, engineering, and reflection
-- 🧪 [Cortex](https://github.com/artemgetmann/Cortex) - persistent-memory agent that learns across sessions
 - 📈 [marketmirror](https://github.com/artemgetmann/marketmirror) - contrarian AI stock analysis platform
 - 🎤 [OneTapTranscribe](https://github.com/artemgetmann/OneTapTranscribe) - one-tap iOS transcription with instant transcript-to-clipboard flow
 
 ## Open Source Toolkit
 
-- [claude-slash-commands](https://github.com/artemgetmann/claude-slash-commands) - practical slash commands for Claude Code
-- [mcp-cloud-tools](https://github.com/artemgetmann/mcp-cloud-tools) - cloud-deployed MCP utilities over HTTP/SSE
 - [finance-tracker](https://github.com/artemgetmann/finance-tracker) - local-first agentic finance pipeline
+- [mcp-cloud-tools](https://github.com/artemgetmann/mcp-cloud-tools) - cloud-deployed MCP utilities over HTTP/SSE
+- [claude-slash-commands](https://github.com/artemgetmann/claude-slash-commands) - practical slash commands for Claude Code
+
 
 ## Contact
 
