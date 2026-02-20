@@ -10,15 +10,14 @@ MindMirror + MarketMirror founder. Engineer. Investor. Building AGI.
 ![MCP](https://img.shields.io/badge/-MCP-111111?style=flat-square)
 ![AI Agents](https://img.shields.io/badge/-AI%20Agents-111111?style=flat-square)
 
-> I build systems that actually work.
-> No fluff. No corporate speak. Results only.
+> I build systems that actually work and bring value to others.
 
 ## Current Focus
 
-- 🧠 [mindmirror](https://github.com/artemgetmann/mindmirror) - long-term memory infrastructure for AI agents (MCP backend + retrieval API + optional web UI)
-- 🎙️ [jarvis-voice-ai](https://github.com/artemgetmann/jarvis-voice-ai) - voice-first AI assistant built for real thinking, not demo scripts
 - 🧪 [Cortex](https://github.com/artemgetmann/Cortex) - persistent-memory agent that improves across sessions
-- 📈 [marketmirror](https://github.com/artemgetmann/marketmirror) - AI investing platform focused on practical, contrarian analysis
+- 🎙️ [jarvis-voice-ai](https://github.com/artemgetmann/jarvis-voice-ai) - voice-first AI assistant built for real thinking.
+- 🧠 [mindmirror](https://github.com/artemgetmann/mindmirror) - long-term memory infrastructure for AI agents (MCP backend + semantic retrieval API + vector db + optional web frontend)
+- 📈 [marketmirror](https://github.com/artemgetmann/marketmirror) - AI powered stock analysis platform focused on practical, fundamental analysis using first principles
 - 🎤 [OneTapTranscribe](https://github.com/artemgetmann/OneTapTranscribe) - one-tap iOS transcription with instant transcript-to-clipboard flow
 
 ## Open Source
@@ -29,8 +28,8 @@ MindMirror + MarketMirror founder. Engineer. Investor. Building AGI.
 
 ## Background
 
-I spent 7 years co-founding and scaling a business, then went all-in on AI products.
-Now I build tools I personally use: memory systems, voice interfaces, and market intelligence.
+I spent 7 years co-founding and scaling a business, as well as investing consistently into tech stocks, then went all-in on AI products.
+Now I build tools I personally use: memory systems, voice interfaces, market intelligence, whatever I feel needs to exist but does not.
 
 ## Connect
 
