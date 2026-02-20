@@ -1,6 +1,8 @@
 # Hi, I'm Artem 👋
 
-Currently based in Dubai, UAE
+MindMirror + MarketMirror founder. Engineer. Investor. Building AGI.
+
+📍 Dubai, UAE
 
 ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
