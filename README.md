@@ -1,16 +1,18 @@
-## Hi there 👋
+# Artem Getman
 
-<!--
-**artemgetmann/artemgetmann** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Founder/engineer in Dubai building practical AI systems.
 
-Here are some ideas to get you started:
+## Building
+- [Cortex](https://github.com/artemgetmann/Cortex): persistent-memory agent that learns across sessions
+- [jarvis-voice-ai](https://github.com/artemgetmann/jarvis-voice-ai): voice-first AI assistant platform
+- [mindmirror](https://github.com/artemgetmann/mindmirror): memory layer for AI agents
+- [marketmirror](https://github.com/artemgetmann/marketmirror): contrarian AI stock analysis platform
+- [OneTapTranscribe](https://github.com/artemgetmann/OneTapTranscribe): one-tap iOS transcription app
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Open Source
+- [claude-slash-commands](https://github.com/artemgetmann/claude-slash-commands)
+- [mcp-cloud-tools](https://github.com/artemgetmann/mcp-cloud-tools)
+- [finance-tracker](https://github.com/artemgetmann/finance-tracker)
+
+## Contact
+- X: [@artemgetman_](https://x.com/artemgetman_)
