@@ -22,8 +22,6 @@ MindMirror + MarketMirror founder. Engineer. Investor. Building AGI.
 
 ## Open Source
 
-- [claude-slash-commands](https://github.com/artemgetmann/claude-slash-commands) - useful slash commands for Claude Code
-- [mcp-cloud-tools](https://github.com/artemgetmann/mcp-cloud-tools) - cloud MCP tools over HTTP/SSE endpoints
 - [finance-tracker](https://github.com/artemgetmann/finance-tracker) - local-first finance tracking + agent workflows
 
 ## Background
