@@ -19,7 +19,7 @@ This page is a compact index of work I can support with public experiments, repo
 - **Hypothesis:** Retrieving lessons from earlier failures would improve completion without changing the model or step budget.
 - **Experiment:** Ran learning ON and OFF for 10 sessions per arm with the same task, model, evaluator, and limits.
 - **Result:** ON passed 5/10 versus 2/10 for OFF; mean errors fell from 5.5 to 3.7.
-- **Lesson:** The learning mechanism showed a useful signal in this setup, but one small experiment is not proof of general improvement.
+- **Lesson:** The learning mechanism showed a useful signal in this setup, but one small experiment is not proof that it will improve performance across unrelated tasks. Making the system scale without task-specific tuning remains the main open problem.
 - **Proof:** [Shell hotfix ON/OFF report](https://github.com/artemgetmann/Cortex/blob/main/tracks/cli_sqlite/reports/2026-03-09_shell_hotfix_hard_onoff_step6_10run.md)
 
 ### Memory also made another test worse
@@ -44,14 +44,14 @@ This page is a compact index of work I can support with public experiments, repo
 
 Jarvis is my current local-first consumer product for bringing coding-agent capabilities to everyday Mac users. Its repository began as a fork of [OpenClaw](https://github.com/openclaw/openclaw), and the engine and substantial upstream code remain inherited. The examples below link to specific changes I authored and product decisions I made rather than claiming the full repository as my work.
 
-### Durable goals need independent completion checks
+### Browser automation should not take over the user's daily Chrome window
 
-- **Problem:** An agent that grades its own work can mark a long-running goal complete without sufficient evidence.
-- **Hypothesis:** A fresh evaluator with no tools, hooks, or owner authority should judge a structured evidence packet after each work attempt.
-- **Change:** Added durable goal claims, an isolated evaluator, bounded automatic revision, stable-blocker handling, and fail-closed behavior for unsupported providers.
-- **Result:** The exact source head passed focused tests, full required CI, and independent review. Installed-runtime behavior remained a separate proof layer.
-- **Lesson:** Persistence is not enough. Long-running agents need independent evidence checks and explicit stop states.
-- **Proof:** [PR #1334: independent evaluator loop](https://github.com/artemgetmann/openclaw/pull/1334)
+- **Problem:** A clean automation browser loses the user's signed-in state, while controlling their live Chrome window can interrupt their work and may require an approval prompt.
+- **Hypothesis:** A separate copy of the Chrome account chosen during setup could preserve useful sign-ins and extensions without taking over the user's active window and tabs.
+- **Change:** Added a dedicated signed-in browser lane that launches the copied profile and controls it through Chrome DevTools MCP. The live Chrome lane remains available only when a task needs the user's current tabs or window.
+- **Result:** Focused browser tests and the build passed. In an isolated run, the copied profile opened GrabFood, returned a screenshot and page snapshot, and completed a safe click while remaining attached through Chrome DevTools MCP.
+- **Lesson:** Useful browser automation needs both continuity and separation. A copied signed-in profile is still sensitive because the agent can access authenticated websites, so it needs the same care as any logged-in browser.
+- **Proof:** [PR #831: signed-in Chrome copy](https://github.com/artemgetmann/openclaw/pull/831) and [PR #1236: simplified Jarvis browser choices](https://github.com/artemgetmann/openclaw/pull/1236)
 
 ### Delegation must preserve only the authority it needs
 
