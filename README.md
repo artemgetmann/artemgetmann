@@ -1,6 +1,6 @@
 # Hi, I'm Artem 👋
 
-I build practical AI agents that work across software, messages, browsers, files, and the computer itself to complete real tasks. In [Cortex](https://github.com/artemgetmann/Cortex), I test whether agents can learn from experience and improve across different kinds of work. [Jarvis](https://github.com/artemgetmann/openclaw) turns these kinds of capabilities into a consumer product for everyday work.
+I build practical AI agents that work across software, messages, browsers, files, and the computer itself to complete real tasks. My current focus is [Jarvis](https://github.com/artemgetmann/openclaw); [Cortex](https://github.com/artemgetmann/Cortex) documents earlier controlled agent-memory experiments.
 
 I focus on memory, tool use, approvals, monitoring, and verification: helping agents use new tools, keep working, ask before sensitive actions, and show what they actually did.
 
@@ -14,11 +14,14 @@ I focus on memory, tool use, approvals, monitoring, and verification: helping ag
 ![MCP](https://img.shields.io/badge/-MCP-111111?style=flat-square)
 ![AI Agents](https://img.shields.io/badge/-AI%20Agents-111111?style=flat-square)
 
-## Current Work
+## Current Focus
+
+- 🧿 [Jarvis](https://github.com/artemgetmann/openclaw) - a distinct, local-first consumer product that helps people delegate real work across their Mac, browser, files, messages, and tools. Its repository began as an OpenClaw fork and still contains substantial inherited code. My work includes Jarvis product decisions and specific changes to tool use, orchestration, reliability, macOS packaging, Telegram, approvals, and verification.
+
+## Research and Other Projects
 
 - 🧪 [Cortex](https://github.com/artemgetmann/Cortex) - a research prototype testing whether AI agents can learn from past attempts and improve across different tasks using persistent memory. The main unsolved problem is making those gains work reliably beyond one specific task.
-- 🧿 [Jarvis](https://github.com/artemgetmann/openclaw) - a distinct, local-first consumer product that helps people delegate real work across their Mac, browser, files, messages, and tools. Its repository began as an OpenClaw fork and still contains substantial inherited code. My work includes Jarvis product decisions and specific changes to tool use, orchestration, reliability, macOS packaging, Telegram, approvals, and verification.
-- 🧠 [MindMirror](https://github.com/artemgetmann/mindmirror) - memory infrastructure for AI agents, with an MCP backend, retrieval API, vector storage, and an optional web interface.
+- 🧠 [MindMirror](https://github.com/artemgetmann/mindmirror) - paused memory infrastructure for AI agents, with an MCP backend, retrieval API, vector storage, and an optional web interface.
 - 📈 [MarketMirror](https://github.com/artemgetmann/marketmirror) - AI stock-analysis platform for practical, skeptical fundamental research.
 
 ## Selected Technical Evidence
