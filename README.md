@@ -17,6 +17,7 @@ I focus on memory, tool use, approvals, monitoring, and verification: helping ag
 ## Current Focus
 
 - 🧿 [Jarvis](https://github.com/artemgetmann/openclaw) - a distinct, local-first consumer product that helps people delegate real work across their Mac, browser, files, messages, and tools. Its repository began as an OpenClaw fork and still contains substantial inherited code. My work includes Jarvis product decisions and specific changes to tool use, orchestration, reliability, macOS packaging, Telegram, approvals, and verification.
+- 💬 [Telegram User CLI](https://github.com/artemgetmann/telegram-user-cli): a standalone tool that lets shell agents read chats and send exact text through your own Telegram account, with JSON output and explicit owner authorization.
 
 ## Research and Other Projects
 
