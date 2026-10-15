@@ -18,12 +18,10 @@ I focus on memory, tool use, approvals, monitoring, and verification: helping ag
 ![MCP](https://img.shields.io/badge/-MCP-111111?style=flat-square)
 ![AI Agents](https://img.shields.io/badge/-AI%20Agents-111111?style=flat-square)
 
-## Current Focus
+## Research and Other Projects
 
 - 🧿 [Jarvis](https://github.com/artemgetmann/openclaw) - a distinct, local-first consumer product that helps people delegate real work across their Mac, browser, files, messages, and tools. Its repository began as an OpenClaw fork and still contains substantial inherited code. My work includes Jarvis product decisions and specific changes to tool use, orchestration, reliability, macOS packaging, Telegram, approvals, and verification.
 - 💬 [Telegram User CLI](https://github.com/artemgetmann/telegram-user-cli): a standalone tool that lets shell agents read chats and send exact text through your own Telegram account, with JSON output and explicit owner authorization.
-
-## Research and Other Projects
 
 - 🧪 [Cortex](https://github.com/artemgetmann/Cortex) - a research prototype testing whether AI agents can learn from past attempts and improve across different tasks using persistent memory. The main unsolved problem is making those gains work reliably beyond one specific task.
 - 🧠 [MindMirror](https://github.com/artemgetmann/mindmirror) - paused memory infrastructure for AI agents, with an MCP backend, retrieval API, vector storage, and an optional web interface.
