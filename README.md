@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/tony-stark.gif" alt="Tony Stark suiting up as Iron Man" width="480">
+</p>
+
 # Hi, I'm Artem 👋
 
 I build practical AI agents that work across software, messages, browsers, files, and the computer itself to complete real tasks. My current focus is [Jarvis](https://github.com/artemgetmann/openclaw); [Cortex](https://github.com/artemgetmann/Cortex) documents earlier controlled agent-memory experiments.
